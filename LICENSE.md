@@ -1,5 +1,3 @@
-# Copia y pega este contenido exacto
-cat > LICENSE << 'EOF'
 MIT License
 
 Copyright (c) 2024 Enrique Aguayo
