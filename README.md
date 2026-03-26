@@ -1,92 +1,38 @@
 # DeepSeek Research Tools
 
-Practical AI tools for scientific research using DeepSeek models.
+**Open-source Python tools for AI-assisted scientific research using DeepSeek models.**
 
-## Quick Start
+DeepSeek Research Tools es un conjunto de herramientas para acelerar la investigación científica mediante inteligencia artificial. Incluye análisis de papers, automatización de workflows de investigación y ejemplos aplicados en neurofarmacología (proyecto NeuroFarmac).
+
+---
+
+## Problema que Resuelve
+
+- **Sobrecarga de literatura:** Miles de papers publicados cada mes. Difícil mantener actualización.
+- **Extracción de insights:** Identificar contribuciones clave, metodologías y limitaciones de forma rápida.
+- **Reproducibilidad:** Automatizar pasos repetitivos del proceso de investigación.
+
+---
+
+## Herramientas
+
+| Herramienta | Descripción | Estado |
+|-------------|-------------|--------|
+| **Paper Analyzer** | Extrae contribuciones clave, metodologías y limitaciones de papers académicos usando DeepSeek API | ✅ Implementado |
+| **Research Workflow Automation** | Automatiza revisión de literatura y generación de hipótesis | 🔲 En desarrollo |
+| **NeuroFarmac Integration** | Ejemplos aplicados al proyecto NeuroFarmac | ✅ Implementado |
+
+---
+
+## Instalación
 
 ```bash
-
-# Clone repository
+# Clonar repositorio
 git clone https://github.com/enriqueherbertag-lgtm/deepseek-research-tools
 cd deepseek-research-tools
 
-# Install as package
+# Instalar como paquete
 pip install -e .
 
-# Or install dependencies manually
+# O instalar dependencias manualmente
 pip install -r requirements.txt
-
-
-# Run paper analyzer example
-python examples/neurofarmac_analysis.py
-
-
-
-## Available Tools
-
-
-## 1. Paper Analyzer
-
-Extract key insights from academic papers using DeepSeek API.
-
-
-```python
-
-
-from deepseek_tools import PaperAnalyzer
-
-analyzer = PaperAnalyzer(api_key="your_api_key")
-results = analyzer.analyze("path/to/paper.pdf")
-
-print(f"Key contributions: {results['insights']['key_contributions']}")
-
-
-
-## 2. Research Workflow Automation
-
-Tools to accelerate literature review and hypothesis generation.
-
-
-## Example: NeuroFarmac Research
-
-See how these tools assist in computational neuropharmacology research:
-
-- NeuroFarmac Analysis Example (examples/neurofarmac_analysis.py)
-
-- Research Workflow (examples/research_workflow.md)
-
-
-Installation
-
-
-From source:
-
-```bash
-
-
-git clone https://github.com/enriqueherbertag-lgtm/deepseek-research-tools
-cd deepseek-research-tools
-pip install -e .
-
-
-
-## Documentation
-
-Examples (examples/)
-
-Research Workflow (examples/research_workflow.md)
-
-## Author
-
-Enrique Aguayo - NeuroAI Researcher
-GitHub: enriqueherbertag-lgtm
-Contact: eaguayo@migst.cl
-ORCID: 0009-0004-4615-6825
-
-## Acknowledgments
-
-DeepSeek team for their open research approach
-
-Neuropharmacology research community
-
-Open-source scientific tools ecosystem
