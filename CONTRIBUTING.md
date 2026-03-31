@@ -117,11 +117,5 @@ Goliat-Orbital es un proyecto conceptual, pero todas las contribuciones técnica
 
 ---
 
-## Licencia
-
-Al contribuir, aceptas que tu trabajo se licencie bajo **Apache 2.0 con restricción comercial**, manteniendo los mismos términos del proyecto.
-
----
-
 *Documento v1.0 - Marzo 2026*
 *Goliat-Orbital - Mackiber Labs*
