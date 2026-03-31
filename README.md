@@ -2,6 +2,9 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/5fabda44-8f2b-449d-b59d-83629b504af5" />
+
+
 **Open-source Python tools for AI-assisted scientific research using DeepSeek models.**
 
 DeepSeek Research Tools es un conjunto de herramientas para acelerar la investigación científica mediante inteligencia artificial. Incluye análisis de papers, automatización de workflows de investigación y ejemplos aplicados en neurofarmacología (proyecto NeuroFarmac).
