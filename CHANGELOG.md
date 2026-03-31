@@ -1,4 +1,3 @@
-# Registro de Cambios - Goliat-Son
 
 ## [0.2.0] - 2026-03-24
 
@@ -18,7 +17,7 @@
 - Especificaciones de propulsión (hidrógeno + LOX, respaldo atmosférico con ShieldAir)
 - Capacidad de carga: 6 personas + 8.7 toneladas
 - Documentación de integración con Odiseo
-- Licencia Apache 2.0 con restricción comercial
+
 
 ### Próximos pasos
 - [ ] Modelado CAD del aterrizador
