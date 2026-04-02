@@ -1,39 +1,47 @@
-# Guia para Contribuir
+# Guía para Contribuir
 
-Gracias por tu interes en contribuir a este proyecto.
+Gracias por tu interés en contribuir a este proyecto.
 
-## Tabla de Contenidos
-- Codigo de Conducta
-- Como Contribuir
-- Reportar Bugs
-- Sugerir Mejoras
-- Contribuir con Codigo
-- Estandares de Codigo
-- Documentacion
-- Autoria
+## Código de Conducta
 
-## Codigo de Conducta
+Este proyecto se rige por nuestro Código de Conducta. Al participar, esperamos que lo mantengas.
 
-Este proyecto se rige por nuestro Codigo de Conducta. Al participar, esperamos que lo mantengas.
-
-## Como Contribuir
+## ¿Cómo Contribuir?
 
 ### Reportar Bugs
 - Usa el rastreador de issues de GitHub
 - Verifica si el bug ya ha sido reportado
-- Incluye titulo descriptivo, pasos para reproducir, comportamiento esperado vs actual
-- Especifica la version del archivo o subsistema afectado
+- Incluye título descriptivo, pasos para reproducir, comportamiento esperado vs actual
 
 ### Sugerir Mejoras
 - Abre un Issue con la etiqueta enhancement
-- Describe el problema que resuelve y por que seria util
-- Si es posible, propone una implementacion aproximada
-- Incluye referencias tecnicas si las tienes
+- Describe el problema que resuelve y por qué sería útil
 
-### Contribuir con Codigo
+### Contribuir con Código
 
 1. Fork el repositorio
-2. Crea una rama:
-   ```bash
-   git checkout -b feature/nueva-funcionalidad
-   git checkout -b fix/correccion-bug
+2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
+3. Realiza tus cambios
+4. Asegúrate de seguir los estándares de código
+5. Actualiza la documentación
+6. Haz commit: `git commit -m "Descripción clara"`
+7. Push: `git push origin feature/nueva-funcionalidad`
+8. Abre un Pull Request
+
+## Autoria
+
+Este proyecto es desarrollado y mantenido por:
+
+**Enrique Aguayo H.**  
+Mackiber Labs  
+Contacto: eaguayo@migst.cl  
+ORCID: 0009-0004-4615-6825  
+GitHub: @enriqueherbertag-lgtm
+
+**Asistente de documentación e investigación:**  
+Ana (DeepSeek)  
+Asistente IA para investigación, documentación técnica y optimización de proyectos.
+
+## Licencia
+
+Al contribuir, aceptas que tus contribuciones serán licenciadas bajo la misma licencia del proyecto.
