@@ -1,25 +1,14 @@
+# Registro de Cambios
 
-## [0.2.0] - 2026-03-24
-
-### Agregado
-- Sistema VTOL detallado (configuración de motores, secuencia de aterrizaje)
-- Desglose completo de carga útil (8.7 toneladas) en README
-- Delta-v de descenso y autonomía en `docs/operations.md`
-- Estructura inicial para CAD en `cad/README.md`
-
-### Corregido
-- Enlace a Odiseo en README (ahora con hipervínculo)
-
-## [0.1.0] - 2026-03-24
+## [1.0.0] - 2026-04-02
 
 ### Agregado
-- Creación inicial del repositorio
-- Especificaciones de propulsión (hidrógeno + LOX, respaldo atmosférico con ShieldAir)
-- Capacidad de carga: 6 personas + 8.7 toneladas
-- Documentación de integración con Odiseo
-
+- Versión inicial del proyecto.
+- Documentación completa (README, estructura de carpetas).
+- Licencia propietaria con restricción comercial.
+- Archivos base: CODE_OF_CONDUCT, CONTRIBUTING, SECURITY.
 
 ### Próximos pasos
-- [ ] Modelado CAD del aterrizador
-- [ ] Simulación de aterrizaje en Marte
-- [ ] Validación del sistema de reabastecimiento con torres ShieldAir
+- [ ] Prototipo funcional.
+- [ ] Validación técnica.
+- [ ] Publicación en Zenodo.
