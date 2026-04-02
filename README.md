@@ -1,43 +1,59 @@
-# DeepSeek Research Tools
+# DeepSeek Research Tools: Acelera tu investigación con IA
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19361893.svg)](https://doi.org/10.5281/zenodo.19361893)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![EN](https://img.shields.io/badge/English-version-blue.svg)](./README.en.md)
 
-<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/5fabda44-8f2b-449d-b59d-83629b504af5" />
+Cada mes se publican miles de papers científicos. Nadie puede leerlos todos. Identificar contribuciones clave, metodologías y limitaciones lleva horas o días.
 
+DeepSeek Research Tools resuelve ese problema.
 
-**Open-source Python tools for AI-assisted scientific research using DeepSeek models.**
+## Que hace
 
-DeepSeek Research Tools es un conjunto de herramientas para acelerar la investigación científica mediante inteligencia artificial. Incluye análisis de papers, automatización de workflows de investigación y ejemplos aplicados en neurofarmacología (proyecto NeuroFarmac).
+Es un conjunto de herramientas en Python que usa la API de DeepSeek para acelerar la investigación científica.
 
----
+**Paper Analyzer**: extrae automáticamente contribuciones clave, metodologías y limitaciones de papers académicos.
+**NeuroFarmac Integration**: ejemplos aplicados al proyecto NeuroFarmac.
+**Research Workflow Automation**: automatización de revisión de literatura y generación de hipótesis (en desarrollo).
 
-## Problema que Resuelve
+## Para quién es
 
-- **Sobrecarga de literatura:** Miles de papers publicados cada mes. Difícil mantener actualización.
-- **Extracción de insights:** Identificar contribuciones clave, metodologías y limitaciones de forma rápida.
-- **Reproducibilidad:** Automatizar pasos repetitivos del proceso de investigación.
-
----
-
-## Herramientas
-
-| Herramienta | Descripción | Estado |
-|-------------|-------------|--------|
-| **Paper Analyzer** | Extrae contribuciones clave, metodologías y limitaciones de papers académicos usando DeepSeek API | ✅ Implementado |
-| **Research Workflow Automation** | Automatiza revisión de literatura y generación de hipótesis | 🔲 En desarrollo |
-| **NeuroFarmac Integration** | Ejemplos aplicados al proyecto NeuroFarmac | ✅ Implementado |
-
----
+- Investigadores que necesitan procesar grandes volúmenes de literatura.
+- Académicos que buscan acelerar su flujo de trabajo.
+- Desarrolladores que trabajan con DeepSeek AI.
 
 ## Instalación
 
 ```bash
-# Clonar repositorio
 git clone https://github.com/enriqueherbertag-lgtm/deepseek-research-tools
 cd deepseek-research-tools
-
-# Instalar como paquete
 pip install -e .
 
-# O instalar dependencias manualmente
-pip install -r requirements.txt
+
+## Estado actual
+
+- Paper Analyzer: implementado.
+
+- NeuroFarmac Integration: implementado.
+
+- Research Workflow Automation: en desarrollo.
+
+- Pruebas unitarias: pendientes.
+
+- Documentación técnica: pendiente.
+
+## Licencia
+
+  Copyright © 2026 Enrique Aguayo. Todos los derechos reservados.
+
+  [Texto de licencia propietaria estándar...]
+
+## Autor
+
+ Enrique Aguayo H.
+ Mackiber Labs
+ Contacto: eaguayo@migst.cl
+ ORCID: 0009-0004-4615-6825
+ GitHub: @enriqueherbertag-lgtm
+
+ Documentación asistida por Ana (DeepSeek), IA para investigación y optimización técnica.
